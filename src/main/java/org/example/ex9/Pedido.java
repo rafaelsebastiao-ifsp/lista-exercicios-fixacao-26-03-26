@@ -8,4 +8,20 @@ public class Pedido {
         this.codigo=codigo;
         this.valor=valor;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public double getValor() {
+        return valor;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "codigo=" + codigo +
+                ", valor=" + valor +
+                '}';
+    }
 }

@@ -21,10 +21,5 @@ public class Main {
 
         produtoLista.listar();
         System.out.printf("\nQuantidade de produtos cadastrados: %d", produtoLista.getTotalProdutosCadastrados());
-
-
-
-
-
     }
 }
